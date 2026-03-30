@@ -1,4 +1,5 @@
 # Drawing-Robot
+![Drawing-Robot](Media/final.jpeg)
 A servo-controlled drawing robot powered by an ESP8266. The robot uses inverse kinematics to accurately position a pen and draw shapes, with control provided via an IR remote.
 # Features
 Servo-based 2D drawing mechanism
