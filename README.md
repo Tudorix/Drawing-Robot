@@ -4,6 +4,7 @@ A servo-controlled drawing robot powered by an ESP8266. The robot uses inverse k
 
 Watch Demo:
 https://youtu.be/79JGTEXYeSc?is=7HhXlH1j8jswO96r
+https://youtube.com/shorts/AdkJUwC2ib8?is=xLOZfuKK8LQk-5Mh
 
 # Features
 Servo-based 2D drawing mechanism
