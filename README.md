@@ -1,29 +1,38 @@
-# Drawing-Robot
-![Drawing-Robot](Media/Final.jpeg)
-A servo-controlled drawing robot powered by an ESP8266. The robot uses inverse kinematics to accurately position a pen and draw shapes, with control provided via an IR remote.
+# Drawing Robot
 
-Watch Demo:
-https://youtu.be/7PwpwJKB_Jg
+![Drawing Robot](Media/Final.jpeg)
 
-# Features
-Servo-based 2D drawing mechanism
-Inverse kinematics for precise positioning
-IR remote control for interaction
-Wireless, self-contained system
-# Hardware
-ESP8266
-Servo motors
-IR receiver + remote
-Mechanical drawing frame
-Power supply
-# How it works
-The robot computes the required servo angles using inverse kinematics to reach a target point in a 2D plane. Commands received from the IR remote define movements or drawing actions, which are translated into coordinated servo motion.
-# Setup
-Assemble the mechanical structure
-Connect servos and IR receiver to the ESP8266
-Upload the code
-Use the remote to control drawing
-# Notes
-Calibration is important for accuracy
-Inverse kinematics allows smooth and precise motion
-Can be extended with predefined drawings or automated patterns
+A simple 2D drawing robot built using an ESP8266, servo motors and inverse kinematics.
+
+The robot controls a pen using two servo-driven arms and a SG90 servo for lowering the pen and computes the required angles to reach points in a 2D plane. An IR remote is used to control movements and drawing actions wirelessly.
+
+Watch demo: https://youtu.be/7PwpwJKB_Jg
+
+## What I learned
+
+- Basic inverse kinematics for 2D robotic arms
+- Controlling multiple servo motors with an ESP8266
+- Reading commands from an IR remote
+- Converting coordinates into servo angles
+- Mechanical design and CAD modeling for robotic linkages
+
+## Challenges
+
+- Calibrating the servos for accurate positioning
+- Reducing wobble and mechanical play in the arms
+- Making the movement smooth and repeatable
+- Finding arm lengths that balance precision and drawing area
+- Synchronizing both servos for coordinated motion
+
+## Limitations
+
+- The servos are not very precise and introduce small positioning errors
+- The drawing area is relatively small because of the arm length
+- Servo backlash affects line accuracy and repeatability
+- Drawing speed is limited by the servo motors
+
+## Possible Improvements
+
+- Using higher quality or metal gear servos
+- Replacing the servos with stepper motors for better precision
+- Increasing the arm length for a larger drawing area
